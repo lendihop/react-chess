@@ -7,7 +7,7 @@ import whiteLogo from "../../assets/white-rook.png";
 export class Rook extends Figure {
   constructor(color: Colors, cell: Cell) {
     super(color, cell);
-    this.logo = Colors.BLACK ? blackLogo : whiteLogo;
+    this.logo = color === Colors.BLACK ? blackLogo : whiteLogo;
     this.name = FigureNames.ROOK;
   }
 
@@ -24,6 +24,6 @@ export class Rook extends Figure {
       return true;
     }
 
-    return true;
+    return false;
   }
 }
