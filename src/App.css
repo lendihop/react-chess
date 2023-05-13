@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-h3 {
+button, h2, h3 {
     margin-bottom: 10px;
 }
 
@@ -53,4 +53,15 @@ h3 {
     width: 12px;
     border-radius: 50%;
     background-color: #5cce5c;
+}
+
+.lost {
+    height: calc(50vh - 60px);
+    padding: 30px;
+    margin-left: 50px;
+    background-color: lightgray;
+}
+
+.timer {
+    margin-right: 50px;
 }
